@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<deployments>
+  <deployment alt-context-root="" context-root="/servlet" deployment-path="D:/Tomcat/webapps/servlet" project-name="servlet" server-id="tomcat7Server" state="REDEPLOY" status="Deployment is out of date due to changes in the underlying project contents. You'll need to manually 'Redeploy' the project to update the deployed archive." type="WEB"/>
+  <deployment context-root="/jsp" deployment-path="D:/Tomcat/webapps/jsp" project-name="jsp" server-id="tomcat7Server" state="DEPLOYED" type="WEB"/>
+</deployments>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FirstServlet</servlet-name>
+    <servlet-class>servlet.FirstServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestServlet</servlet-name>
+    <servlet-class>servlet.RequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IdertityServlet</servlet-name>
+    <servlet-class>servlet.IdertityServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InitParamServlet</servlet-name>
+    <servlet-class>servlet.InitParamServlet</servlet-class>
+    <init-param>
+    <param-name>admin</param-name>
+    <param-value>admin</param-value>
+    </init-param>
+    <init-param>
+    <param-name>mzy</param-name>
+    <param-value>yksdy</param-value>
+    </init-param>
+    <init-param>
+    <param-name>bjj</param-name>
+    <param-value>123</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ContextParamServlet</servlet-name>
+    <servlet-class>servlet.ContextParamServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InjectionServlet</servlet-name>
+    <servlet-class>servlet.InjectionServlet</servlet-class>
+  </servlet>
+
+
+<context-param>
+<param-name>updoad folder</param-name>
+<param-value>atttachment</param-value>
+</context-param>
+<context-param>
+<param-name>allowed file type</param-name>
+<param-value>.gif,.jpg,.bmp</param-value>
+</context-param>
+
+<env-entry>
+<env-entry-name>hello</env-entry-name>
+<env-entry-type>java.lang.String</env-entry-type>
+<env-entry-value>hahah hello you</env-entry-value>
+</env-entry>
+<env-entry>
+<env-entry-name>hello</env-entry-name>
+<env-entry-type>java.lang.String</env-entry-type>
+<env-entry-value>hahah hello you</env-entry-value>
+</env-entry>
+<env-entry>
+<env-entry-name>person</env-entry-name>
+<env-entry-type>java.lang.String</env-entry-type>
+<env-entry-value>meng,zhao,yang</env-entry-value>
+</env-entry>
+
+  <servlet-mapping>
+    <servlet-name>FirstServlet</servlet-name>
+    <url-pattern>/servlet/FirstServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestServlet</servlet-name>
+    <url-pattern>/servlet/RequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IdertityServlet</servlet-name>
+    <url-pattern>/servlet/IdertityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InitParamServlet</servlet-name>
+    <url-pattern>/servlet/InitParamServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContextParamServlet</servlet-name>
+    <url-pattern>/servlet/ContextParamServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InjectionServlet</servlet-name>
+    <url-pattern>/servlet/InjectionServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

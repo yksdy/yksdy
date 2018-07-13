@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;servlet/WebRoot/seawrch.html&apos; to &apos;search.html&apos;" description="Rename resource &apos;seawrch.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebRoot/seawrch.html" name="search.html" stamp="1496014700156" updateReferences="true"/>
-</session>

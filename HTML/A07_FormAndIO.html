@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>  A07_FormAndIO</title>
+</head>
+<body>
+	<h1 align = "center">HTML 表单与输入实例</h1>
+	<hr />
+	<h2>1 文本域(Text fields)</h2>
+	<form>
+	名:<input name="a" type="text"/>
+	姓:<input name="b" type="text"/><br/>
+	</form>
+	<hr />
+	<h2>2 密码域</h2>
+	<form>
+	用户名:<input name="name" type="text"/>
+	密码:<input name="password" type="password"/><br/>
+	</form>
+	<hr />
+	<h2>3 复选框</h2>
+	<form>
+	<input name="apple" type="checkbox"/> Apple 
+	<input name="banana" type="checkbox"/> Banana <br/>
+	</form>
+	<hr />
+	<h2>4 单选按钮</h2>	
+	<form>
+	<input name="sex" type="radio" checked="checked"  value="male" /> Boy 
+	<input name="sex" type="radio" value="female" /> Girl <br/>
+	<input name="osex" type="radio"/> oBoy 
+	<input name="osex" type="radio"/> oGirl <br/>
+	</form>
+	<hr />
+	<h2>5 简单的下拉列表</h2>
+	<form>
+	<select name="phone">
+	<option value="apple">Appale</option>
+	<option value="mi" selected="selected">Mi</option>
+	<option value="nokeya" >Nokeya</option>
+	</select>
+	</form>
+	<hr />
+	<h2>6 文本域(Textarea)</h2>
+	<textarea cols="30" rows="5">
+	领先的 Web 技术教程 - 全部免费
+	在w3school，你可以找到你所需要的所有的网站建设教程。
+	从基础的HTML到XHTML，乃至进阶的XML、SQL、数据库、多媒体和WAP。
+	</textarea>
+	<hr />
+	<h2>7 创建按钮</h2>	
+	<form>
+	<input type="button" value="Hello world!"/>
+	</form>
+	<hr />
+	<h2>8 Fieldset around data</h2>
+	<form>
+  	<fieldset>
+	    <legend>健康信息</legend>
+	    身高：<input type="text" />
+	    体重：<input type="text" />
+	</fieldset>
+	</form>
+	<hr />
+	<h2>9 带有输入框和确认按钮的表单</h2>
+	<form action="/example/html/form_action.asp" method="get">
+	  <p>First name: <input type="text" name="fname" /></p>
+	  <p>Last name: <input type="text" name="lname" /></p>
+	  <input type="submit" value="Submit" />
+	</form>
+	<hr />
+	<h2>10 带有复选框的表单</h2>
+	<hr />
+	<h2>11 带有单选按钮的表单</h2>
+	<hr />
+	<h2>12 从表单发送电子邮件</h2>
+	<hr />
+</body>
+</html>

@@ -1,0 +1,234 @@
+<html>
+<head>
+	<title> TableDemo </title>
+</head>
+<body>
+	<h1 align = "center">HTML 表格实例</h1>
+	<hr />
+	<h2>1 表格</h2>
+	<table border="16">
+	<tr>
+	<td>01</td>
+	<td>02</td>
+	</tr>
+	<td>11</td>
+	<td>12</td>
+	<td>13</td>
+	</tr>
+	</table>
+	<hr />
+	<h2>2 表格边框 </h2>
+	如1
+	<hr />
+	<h2>3 没有边框的表格</h2>
+	如1 border ="0"
+	<hr />
+	<h2>4 表格中的表头(Heading)</h2>	
+	<table border="1">
+	<tr>
+	<th>name</th>
+	<th>age</th>
+	</tr>
+	<td>xiaoming</td>
+	<td>12</td>
+	</tr>
+	</table>
+	<hr />
+	<h2>5 空单元格</h2>
+	<table border="1">
+	<tr>
+	<td></td>
+	<td>02</td>
+	</tr>
+	<td>11</td>
+	<td>12</td>
+	</tr>
+	</table>
+	<hr />
+	<h2>6 带有标题的表格</h2>
+	<table border="1">
+	<caption><b>标题</b></caption>
+	<tr>
+	<th>name</th>
+	<th>age</th>
+	</tr>
+	<td>xiaoming</td>
+	<td>12</td>
+	</table>
+	<hr />
+	<h2>7 跨行或跨列的表格单元格</h2>
+	<table border="1">
+	<caption><b>课表</b></caption>
+	<tr>
+	<th>2014</th>
+	<th colspan="2">上午</th>
+	</tr>
+	<tr>
+	<th rowspan="2">课程</th>
+	<td> English </td>
+	<td> Math</td>
+	</tr>
+	<tr>
+	<td>Chinese</td>
+	<td>Sport</td>
+	</tr>
+	</table>
+	<hr />
+	<h2>8 表格内的标签</h2>
+	<table border="1">
+	<tr>
+		<td>
+			<p>这是一个段落。</p>
+			<p>这是另一个段落。</p>
+		</td>
+		<td>这个单元包含一个表格：
+			<table border="1">
+			<tr>
+			<td>A</td>
+			<td>B</td>
+			</tr>
+			<tr>
+			<td>C</td>
+			<td>D</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>这个单元包含一个列表：
+			<ul>
+			<li>苹果</li>
+			<li>香蕉</li>
+			<li>菠萝</li>
+			</ul>
+		</td>
+		<td>HELLO</td>
+	</tr>
+	</table>
+	<hr />
+	<h2>9 单元格边距(Cell padding)</h2>
+	<table border="1" cellpadding="10">
+	<tr>
+	  <td>First</td>
+	  <td>Row</td>
+	</tr>   
+	<tr>
+	  <td>Second</td>
+	  <td>Row</td>
+	</tr>
+	</table>
+	<hr />
+	<h2>10 单元格间距(Cell spacing)</h2>
+	<table border="1" cellspacing="10">
+	<tr>
+	  <td>First</td>
+	  <td>Row</td>
+	</tr>   
+	<tr>
+	  <td>Second</td>
+	  <td>Row</td>
+	</tr>
+	</table>
+	<hr />
+	<h2>11 向表格添加背景颜色或背景图像</h2>
+	<h4>背景颜色：</h4>
+	<table border="1" bgcolor="yellow">
+	<tr>
+	  <td>First</td>
+	  <td>Row</td>
+	</tr>   
+	<tr>
+	  <td>Second</td>
+	  <td>Row</td>
+	</tr>
+	</table>
+
+	<h4>背景图像：</h4>
+	<table border="1" background="aa.jpg">
+	<img src="a.jpg"; width="200"/>
+	<tr>
+	  <td>First</td>
+	  <td>Row</td>
+	</tr>   
+	<tr>
+	  <td>Second</td>
+	  <td>Row</td>
+	</tr>
+	</table>
+	<hr />
+	<h2>12 向表格单元添加背景颜色或者背景图像</h2>
+	<h4>单元背景：</h4>  
+	<table border="1">
+	<tr>
+	  <td bgcolor="red">First</td>
+	  <td>Row</td>
+	</tr>   
+	<tr>
+	  <td background="eye.gif">
+	  Second</td>
+	  <td>Row</td>
+	</tr>
+	</table>
+	<hr />
+	<h2>13 在表格单元中排列内容</h2>	
+	<table width="400" border="1">
+	 <tr>
+	  <th align="left">消费项目....</th>
+	  <th align="right">一月</th>
+	  <th align="right">二月</th>
+	 </tr>
+	 <tr>
+	  <td align="left">衣服</td>
+	  <td align="right">$241.10</td>
+	  <td align="right">$50.20</td>
+	 </tr>
+	 <tr>
+	  <td align="left">化妆品</td>
+	  <td align="right">$30.00</td>
+	  <td align="right">$44.45</td>
+	 </tr>
+	 <tr>
+	  <td align="left">食物</td>
+	  <td align="right">$730.40</td>
+	  <td align="right">$650.00</td>
+	 </tr>
+	 <tr>
+	  <th align="left">总计</th>
+	  <th align="right">$1001.50</th>
+	  <th align="right">$744.65</th>
+	 </tr>
+	</table>
+	<hr />
+	<h2>14 框架(frame)属性</h2>
+	<table align="center" border="20" frame="vsides"><!--box below above vsides hsides-->
+	  <tr>
+	    <th>Month</th>
+	    <th>Savings</th>
+	  </tr>
+	  <tr>
+	    <td>January</td>
+	    <td>$100</td>
+	  </tr>
+	</table>
+	
+	<pre>
+	<b>笔记:</b>
+	table
+	tr
+	th
+	td
+
+	colspan rowspan
+	border
+	bgcolor
+	background
+	cellspacing
+	cellpadding
+	align
+	frame "box","above","below","vsides","hsides"
+
+	caption
+	</pre>
+
+</body>
+</html>

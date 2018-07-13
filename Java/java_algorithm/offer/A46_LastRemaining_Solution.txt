@@ -1,0 +1,16 @@
+import java.util.*;
+public class A46_LastRemaining_Solution {
+    public int LastRemaining_Solution(int n, int m) {
+        int[] a = new int[n];
+		for(int i=0;i<n;i++){
+			list[i]=i;
+		}
+    }
+	public static void main(String[] args){
+		Scanner scan = new Scanner();
+		int n = scan.nextInt();
+		int m = scan.nextInt();
+		A46_LastRemaining_Solution lr = new A46_LastRemaining_Solution();
+		System.out.println(lr.A46_LastRemaining_Solution(n,m));
+	}
+}

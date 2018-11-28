@@ -1,5 +1,5 @@
 
-public class GenericsDemo01{
+public class A03_GenericsDemo{
 	public static void main(String[] args){
 		Point<String> p1 = new Point<String>(new String("Meng ZhaoYang"), new String("Engineer"));
 	//	Point<?> p1 = new Point<String>(new String("Meng ZhaoYang"), new String("Engineer")); //error ,  but  this + 33 is ok

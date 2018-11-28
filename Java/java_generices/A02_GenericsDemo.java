@@ -1,5 +1,5 @@
 //package java_generics;
-public class GenericsDemo00{
+public class A02_GenericsDemo{
 	public static void main(String[] args){
 		
 		Point<String> p1 = new Point<String>(new String("Meng ZhaoYang"), new String("Engineer"));

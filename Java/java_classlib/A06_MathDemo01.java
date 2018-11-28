@@ -10,6 +10,7 @@ public class A06_MathDemo01{
 		System.out.println("----");
 		Random r = new Random();
 		for(int i = 0;i<10;i++)
-			System.out.println(r.nextInt(100));
+			System.out.println(r.nextInt(100)+" "+r.nextBoolean());
+		
 	}
 }

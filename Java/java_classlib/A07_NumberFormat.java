@@ -8,5 +8,8 @@ public class A07_NumberFormat{
 
 		DecimalFormat df = new DecimalFormat("00,000$");
 		System.out.println(df.format(12345632));
+		
+		DecimalFormat df = new DecimalFormat("0,00,00");
+		System.out.println(df.format(1234.5632));
 	}
 }

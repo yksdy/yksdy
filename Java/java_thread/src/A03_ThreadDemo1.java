@@ -1,14 +1,14 @@
 public class A03_ThreadDemo1{
 	public static void main(String[] args){
-		MyThread a = new MyThread("A");
-		MyThread b = new MyThread("B");
+		MyThread2 a = new MyThread2("A");
+		MyThread2 b = new MyThread2("B");
 		a.start();
 		b.start();
 	}
 }
-class MyThread extends Thread{
+class MyThread2 extends Thread{
 	private String name;
-	public MyThread(String name){
+	public MyThread2(String name){
 		this.name = name;
 	}
 	public void run(){

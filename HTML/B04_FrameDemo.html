@@ -1,26 +1,27 @@
 <html>
 <head>
-	<title> A04_FrameDemo </title>
+	<title> B04_FrameDemo </title>
+	<frameset cols="35%,40%,25%">
+		<frame src="A01_BaseTagDemo.html"/>
+		<frame src="A02_TextFormatDemo.html"/>
+		<frameset rows="50%,50%" >
+		<frame src="A02_TextFormatDemo.html"/>
+		<frame src="A01_BaseTagDemo.html"/>
+		</frameset>
+	</frameset>
+	
 </head>
-<frameset rows="50%,50%">
-		<frame src="A01_BaseTagDemo.html" />
-		<frame src="A02_TextFormatDemo.html" noresize="noresize"/>
-		<frame src="A03_hrefDemo.html"/>
-</frameset>
 
 <body>
+	
 	<h1 align = "center">HTML 框架实例</h1>
+	
 	<hr />
 	<h2>1 垂直框架</h2>
-	<frameset cols="25%,50%,25%">
-		<frame src="A01_BaseTagDemo.html">
-		<frame src="A02_TextFormatDemo.html">
-		<frame src="A03_hrefDemo.html">
-	</frameset>
 	<hr />
 	<h2>2 水平框架</h2>
 	<hr />
-	<h2>3 如何使用 <noframes> 标签</h2>
+	<h2>3 如何使用 <noframes> </noframes> 标签</h2>
 	<hr />
 	<h2>4 混合框架结构</h2>	
 	<hr />

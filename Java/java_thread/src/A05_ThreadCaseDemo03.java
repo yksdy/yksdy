@@ -1,13 +1,13 @@
 public class A05_ThreadCaseDemo03{
 	public static void main(String[] args){
-		Info info = new Info();
-		Producer p = new Producer(info);
-		Consumer c = new Consumer(info);
+		Info5 info = new Info5();
+		Producer5 p = new Producer5(info);
+		Consumer5 c = new Consumer5(info);
 		new Thread(p).start();
 		new Thread(c).start();
 	}
 }
-class Info{
+class Info5{
 	private String name;
 	private String content;
 	public void setName(String name){
@@ -23,9 +23,9 @@ class Info{
 		return this.content;
 	}
 }
-class Producer implements Runnable{
-	private Info info;
-	public Producer(Info info){
+class Producer5 implements Runnable{
+	private Info5 info;
+	public Producer5(Info5 info){
 		this.info = info;
 	}
 	public void run(){
@@ -53,9 +53,9 @@ class Producer implements Runnable{
 		}
 	}
 }
-class Consumer implements Runnable{
-	private Info info;
-	public Consumer(Info info){
+class Consumer5 implements Runnable{
+	private Info5 info;
+	public Consumer5(Info5 info){
 		this.info = info;
 	}
 	public void run(){

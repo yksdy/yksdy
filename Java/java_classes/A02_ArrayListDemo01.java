@@ -15,6 +15,10 @@ public class A02_ArrayListDemo01{
 	}
 	public static void bufferString(){
 		StringBuffered sb = new StringBuffered();
+		StringBUffered sb1 = new StringBuffered();
+		sb1.append("buf");
+		sb2.append("good");
+		sb2.append("good");
 		System.out.println("----Array List----");
 	}
 }

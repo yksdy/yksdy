@@ -19,5 +19,20 @@ public class A05_DateDemo02{
 		System.out.println(df1.format(new Date())+"\n"+df2.format(new Date()));
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss:SSS");
 		System.out.println(sdf.format(new Date()));
+		
+		String strDate = "2015-01-01 15:20:00.000";
+		String str1 = "yyyy-MM-dd HH:mm:ss.sss";
+		String str2 = "HH:mm:ss.sss yyyy-MM-dd";
+		SimpleDateFormat sdf1 = new SimpleDateFormat(str1);
+		SimpleDateFormat sdf2 = new SimpleDateFormat(str2);		
+		System.out.println(sdf1.format(date));
+		System.out.println(sdf2.format(date));
+		Date d = null;
+		try{
+			d=sdf1.parse(strDate);
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+		System.out.println(sdf2.format(d));
 	}
 }

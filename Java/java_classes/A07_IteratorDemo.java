@@ -12,7 +12,6 @@ public class A07_IteratorDemo{
 			String str = inter.next();
 			if(str.equals("-")){
 				inter.remove();
-				//inter.remove(str);//error   Iterator 指向对象
 			}
 			else
 			{

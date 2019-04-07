@@ -15,8 +15,8 @@ public class ServerManager extends JFrame implements ActionListener{
 	}
 	public ServerManager(){
 		jp = new JPanel();
-		jb1 = new JButton("启动服务器");
-		jb2 = new JButton("关闭服务器");
+		jb1 = new JButton("oo");
+		jb2 = new JButton("jj");
 		jp.add(jb1);
 		jp.add(jb2);
 		this.add(jp);

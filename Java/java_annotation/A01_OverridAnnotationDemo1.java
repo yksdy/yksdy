@@ -1,5 +1,8 @@
 public class A01_OverridAnnotationDemo1{
 	public static void main(String[] args){
+
+
+
 		new Student().priInfo();
 	}
 }

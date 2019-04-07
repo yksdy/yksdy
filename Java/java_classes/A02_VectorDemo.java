@@ -1,8 +1,7 @@
 /**
 Collection
 List
-ArrayList // 高性能, 异步处理,  线程不安全
-Vector   // 较低性能,  同步处理, 线程安全
+Vector   // 锟较碉拷锟斤拷锟斤拷,  同锟斤拷锟斤拷锟斤拷, 锟竭程帮拷全
 1/ add(E);
 addAll(Collection<E>);
 2/ get
@@ -13,7 +12,7 @@ addAll(Collection<E>);
 6/ subList(int,int)
 7/ size()
 8/ toArray(new E[]{})
-     toArray() //返回 Object
+     toArray() //锟斤拷锟斤拷 Object
 9/ isEmpty()
 10 /contains(E)
 
@@ -29,7 +28,7 @@ public class A02_VectorDemo{
 		Vector<String> v = new Vector<String>();
 		list.add("Vector");
 		list.add(0,"Hello");
-		//list.addElement(1,"Element"); //error 多态
+		//list.addElement(1,"Element"); //error 锟斤拷态
 		v.addElement("Element"); 
 		v.add("vector.add");		
 		System.out.println(v.get(0));

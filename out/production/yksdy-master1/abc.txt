@@ -1,4 +1,0 @@
-#abc println from Properties
-#Fri Nov 28 22:53:43 CST 2014
-A=Apple
-B=Banana
